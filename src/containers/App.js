@@ -19,7 +19,7 @@ function App() {
     const ciu = cities.find((c) => c.name.toLowerCase() === ciudad);
     if (!ciu) {
       fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`
       )
         .then((r) => r.json())
         .then((recurso) => {
