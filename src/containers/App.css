@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin-bottom: 0;
+  background-color: #666666;
+  /* background-image: url('../imgs/fondo\ pexels.jpg'); */
+  background-image: url("../../img-screen/cloud-1117279_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
